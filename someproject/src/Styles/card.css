@@ -1,0 +1,135 @@
+/* Card Base Styles */
+.card {
+    background-color: #ffffff;
+    border-radius: 0.75rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border: 1px solid #e5e7eb;
+    margin-bottom: 1rem;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .card:hover {
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.15);
+    transform: translateY(-5px);
+  }
+  
+  /* Card Header Styles */
+  .card-header {
+    padding: 1rem;
+    border-bottom: 1px solid #f3f4f6;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .card-header-without-border {
+    border-bottom: none;
+  }
+  
+  /* Card Title Styles */
+  .card-title {
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: #1f2937;
+    margin: 0;
+  }
+  
+  .card-title-small {
+    font-size: 1rem;
+  }
+  
+  .card-title-large {
+    font-size: 1.5rem;
+  }
+  
+  /* Card Content Styles */
+  .card-content {
+    padding: 1rem;
+    color: #6b7280;
+  }
+  
+  .card-content-padded {
+    padding: 1.5rem;
+  }
+  
+  .card-content-compact {
+    padding: 0.5rem;
+  }
+  
+  /* Card Variants */
+  .card-bordered {
+    border: 2px solid #e5e7eb;
+  }
+  
+  .card-elevated {
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+  }
+  
+  .card-interactive {
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  .card-interactive:hover {
+    background-color: #f9fafb;
+    transform: scale(1.02);
+  }
+  
+  /* Responsive Adjustments */
+  @media (max-width: 640px) {
+    .card {
+      border-radius: 0.5rem;
+    }
+  
+    .card-header {
+      padding: 0.75rem;
+    }
+  
+    .card-content {
+      padding: 0.75rem;
+    }
+  }
+  
+  /* Color Variants */
+  .card-primary {
+    border-left: 4px solid #2563eb;
+  }
+  
+  .card-success {
+    border-left: 4px solid #10b981;
+  }
+  
+  .card-warning {
+    border-left: 4px solid #f59e0b;
+  }
+  
+  .card-danger {
+    border-left: 4px solid #ef4444;
+  }
+  
+  /* Utility Classes */
+  .card-full-width {
+    width: 100%;
+  }
+  
+  .card-shadow-none {
+    box-shadow: none;
+  }
+  
+  .card-rounded-none {
+    border-radius: 0;
+  }
+  
+  .card-rounded-full {
+    border-radius: 1.5rem;
+  }
+  
+  /* Accessibility */
+  .card-focus {
+    outline: none;
+  }
+  
+  .card-focus:focus-visible {
+    outline: 2px solid #2563eb;
+    outline-offset: 2px;
+  }

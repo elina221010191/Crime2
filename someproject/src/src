@@ -1,0 +1,11 @@
+<script>start("c:\\Users\\educa\\Desktop\\Crime_Platform\\Reactapp\\src\\");</script>
+<script>onHasParentDirectory();</script>
+<script>addRow("assets","assets",1,0,"0 B",1741249914,"3/6/25, 10:31:54 AM");</script>
+<script>addRow("Components","Components",1,0,"0 B",1741942875,"3/14/25, 11:01:15 AM");</script>
+<script>addRow("Crime","Crime",1,0,"0 B",1741249914,"3/6/25, 10:31:54 AM");</script>
+<script>addRow("Dash_Styles","Dash_Styles",1,0,"0 B",1741249914,"3/6/25, 10:31:54 AM");</script>
+<script>addRow("Styles","Styles",1,0,"0 B",1741940748,"3/14/25, 10:25:48 AM");</script>
+<script>addRow("App.css","App.css",0,32,"32 B",1741272958,"3/6/25, 4:55:58 PM");</script>
+<script>addRow("App.jsx","App.jsx",0,1297,"1.3 kB",1741965166,"3/14/25, 5:12:46 PM");</script>
+<script>addRow("index.css","index.css",0,38,"38 B",1741183888,"3/5/25, 4:11:28 PM");</script>
+<script>addRow("main.jsx","main.jsx",0,229,"229 B",1737971224,"1/27/25, 11:47:04 AM");</script>
