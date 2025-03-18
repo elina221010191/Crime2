@@ -188,7 +188,7 @@ const Footer = () => {
         {/* Subscribe Section */}
         <div className="footer-section">
           <h3>Subscribe Now</h3>
-          <p>There are many variations of passages of SpotSure available,</p>
+          <p>There are many variations of passages of Crime available,</p>
           <input type="email" placeholder="Enter your email" className="email-input" />
           <button className="subscribe-btn">Subscribe</button>
         </div>
@@ -199,8 +199,8 @@ const Footer = () => {
           <ul>
            <li> <Link to="/">Home</Link></li>
            <li> <Link to="/">About Us</Link></li>
-           <li> <Link to="/">Services</Link></li>
-           <li> <Link to="/">Features</Link></li>
+           <li> <Link to="/">Crime</Link></li>
+           <li> <Link to="/">Blog</Link></li>
            <li> <Link to="/">Contact Us</Link></li>
           </ul>
         </div>
@@ -210,7 +210,7 @@ const Footer = () => {
           <h3>Contact Us</h3>
           <p><LuMapPin className="footer-icon"/><span> Kigali, City</span></p>
           <p><RiPhoneFill className="footer-icon"/><span>+250788675365</span></p>
-          <p><CgMail className="footer-icon"/> <span>spotsure@gmail.com</span></p>
+          <p><CgMail className="footer-icon"/> <span>crime@gmail.com</span></p>
           <div className="SocialMedia">
             <RiFacebookCircleFill className="socialMedia-icon" />
             <BsTwitterX className="socialMedia-icon" />
@@ -222,7 +222,7 @@ const Footer = () => {
 
       {/* Footer Bottom */}
       <div className="footer-bottom">
-        <p>© 2025 All Rights Reserved By SpotSure</p>
+        <p>© 2025 All Rights Reserved By Crime</p>
       </div>
     </footer>
   );

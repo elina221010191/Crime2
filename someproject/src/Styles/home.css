@@ -16,8 +16,8 @@
   position: absolute;
   top: 0;
   left: 0;
-  height:10vh;
-  width: 100%;
+  height:104vh;
+  width: 100vw;
   background: rgba(0, 0, 0, 0.5); /* Dark overlay effect */
 }
 
@@ -48,7 +48,7 @@
 }
 
 .Book-Button {
-  background-color:4635B1;
+  background-color:blue;
   color: white;
   padding: 12px 24px;
   border: none;
