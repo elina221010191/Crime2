@@ -127,9 +127,9 @@ function Contact() {
                 </div>
               
                
-                <div className="otherInf">
-                <h2>Our Store</h2> <br/> <br/>
-                  <p>501-521 Fashion Ave, New York, NY 10018, USA</p><br/>
+                {/* <div className="otherInf"> */}
+                {/* <h2>Our Store</h2> <br/> <br/> */}
+                  {/* <p>501-521 Fashion Ave, New York, NY 10018, USA</p><br/>
                   <p>PHONE: </p>
                   <p>+1 212 244 2681 </p> <br/>
                   <p>E-MAIL: </p>
@@ -137,8 +137,8 @@ function Contact() {
                  <h2> Store Hours </h2> 
                    <p>  Sun: Closed   </p>
                    <p>  Mon to Sat: 10 AM – 5:30 PM </p>
-                </div>
-            </div>
+                </div> */}
+             </div> 
         </section>
     );
 }

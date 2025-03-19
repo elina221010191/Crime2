@@ -37,9 +37,9 @@ const Login = ({ HandleLoginForm }) => {
 
       // Navigate based on the user role
       if (userRole === "admin") {
-        navigate('/dashboard123');
+        navigate('/dashboard');
       } else if (userRole === "user") {
-        navigate('/client-dashboard');
+        navigate('/');
       } else {
         Notify.success("You are not allowed to explore this platform");
       }

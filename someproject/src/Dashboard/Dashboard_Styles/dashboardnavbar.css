@@ -1,0 +1,59 @@
+*{
+margin: 0;
+padding: 0;
+}
+
+.Main-Navbar{
+    margin-left: 20px;
+    display: flex;
+    flex-direction: row;
+    gap:60px;
+    position: fixed;
+    z-index: 1000;
+    background-color: white;
+    height: 50px;
+}
+.search{
+    display: flex;
+    flex-direction: row;
+    gap:0px;
+    border: 1px white;
+}
+.search span{
+    color:#697BC4;
+    font-size:14px;
+   
+}
+.search .search-icon{
+    margin-top: 5px;
+    font-size:14px;
+}
+.Time{
+    display: flex;
+    flex-direction: row;
+    gap:5px;
+    margin-top: 5px;
+    margin-left:480px;
+    background-color:white;
+    border-radius: 5px;
+    
+}
+.Time span{
+    font-size:14px
+}
+.time-icon{
+    color:#333;
+    margin-top: 3px;
+}
+.language{
+    display: flex;
+    flex-direction: row;
+    gap:8px
+}
+.language span{
+    font-size: 14px;
+    margin-top: 3px;
+}
+.not-icon{
+    margin-top: 5px;
+}
