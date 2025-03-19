@@ -38,7 +38,6 @@ const CrimeTypes = () => {
   return (
     <div className="crime-types-container">
       <h1 className="crime-types-title">Types of Crime</h1>
-      
       <div className="crime-types-title">
         {/* Crime Type Buttons */}
         <div className="crime-type-btn">

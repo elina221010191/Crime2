@@ -35,12 +35,12 @@ function App() {
            <Route  path="/Dashboard" index element={<Dashboard/>} />
            <Route  path="/Blog" index element={<Blog/>} />
            <Route  path="/Crime" index element={<Crime/>} />
+           <Route  path="/User_dashboard" index element={<User_dashboard/>} />
          
            </Route>
            <Route path="/" element={<Crime_Layout/>}>
             <Route path="/dashboard" element={<Crime_View/>}/>
             <Route path="/Profile" element={<Profile/>}/>
-              <Route  path="/User_dashboard" index element={<User_dashboard/>} />
             <Route path="/Dashboard" element={<Dashboard/>}/>
             <Route path="/Utilities" element={<Utilities/>}/>
             {/* <Route path="/Message" element={<Message/>}/>
