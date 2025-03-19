@@ -87,7 +87,7 @@ const Navbar = () => {
               {isDropdownOpen && (
                            <div className='theme_dropdown1'>
                              <ul>
-                               <li> Dashboard</li>
+                             <Link to="/User_dashboard" style={{textDecoration:"none"}}> <li> Dashboard</li></Link>
                                <li onClick={HandleLogout}> Logout</li>
                               <Link to="/" style={{textDecoration:"none"}}> <li>Home</li></Link>
                              </ul>

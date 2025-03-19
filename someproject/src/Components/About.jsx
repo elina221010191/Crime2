@@ -13,11 +13,8 @@ const About = () => {
       <div className="why-text">
         <h2>ABOUT</h2>
         <p>
-        There are many parking solutions available, but the majority lack efficiency, security, or convenience. 
-        Before you leave your location, make sure you know exactly where you'll be parking your car.
-         Our platform eliminates uncertainty by offering a seamless booking experience, real-time availability updates, 
-         and secure parking spaces. 
-        No more wasted time searching for a spot—reserve instantly and park with confidence.
+        Many crime-reporting solutions exist, but most lack efficiency, security, or accessibility. Before heading to a location, ensure you know how to report any suspicious activity or crime. Our platform eliminates uncertainty by providing a seamless reporting experience, real-time updates, and secure data handling. No more hesitation in reporting—submit instantly and help create a safer community. 
+        Stay informed about crimes in your area.
         </p>
         <button className="read-more">Read More</button>
       </div>
@@ -25,19 +22,19 @@ const About = () => {
       {/* Right Section (Image Grid) */}
       <div className="image-grid">
         <div className="image-overlay">
-          <img src="/w-1.jpg" alt="Parking 1" />
+          <img src="/crime2.jpg" alt="Parking 1" />
           <div className="hover-overlay">🔗</div>
         </div>
         <div className="image-overlay">
-          <img src="/w-2.jpg" alt="Parking 2" />
+          <img src="/crime1.jpg" alt="Parking 2" />
           <div className="hover-overlay">🔗</div>
         </div>
         <div className="image-overlay">
-          <img src="/w-3.jpg" alt="Parking 3" />
+          <img src="/crime.jpg" alt="Parking 3" />
           <div className="hover-overlay">🔗</div>
         </div>
         <div className="image-overlay">
-          <img src="/w-4.jpg" alt="Parking 4" />
+          <img src="/crime1111.jpg" alt="Parking 4" />
           <div className="hover-overlay">🔗</div>
         </div>
       </div>

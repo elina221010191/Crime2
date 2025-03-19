@@ -9,10 +9,12 @@ import About from './Components/About'
 import Contact from './Components/Contact'
 import Dashboard from './Components/Dashboard'
 import Blog from './Components/Blog'
+import Crime from "./Components/Crime"
 import AuthProvider from "./Components/AuthProvider"
 import Crime_Layout from './Dashboard/Crime_Layout'
 import Crime_View from './Dashboard/Crime_View'
-// import Crime from './Dashboard/Crime'
+import User_dashboard from './Components/User_dashboard'
+//import Crime from './Dashboard/Crime'
 import Profile from './Dashboard/Profile'
 import Utilities from './Dashboard/Utilities'
 //import Dashboard from './Crime_Navbar'
@@ -32,11 +34,13 @@ function App() {
            <Route  path="/Contact" index element={<Contact/>} />
            <Route  path="/Dashboard" index element={<Dashboard/>} />
            <Route  path="/Blog" index element={<Blog/>} />
-           {/* <Route  path="/Crime" index element={<Crime/>} /> */}
+           <Route  path="/Crime" index element={<Crime/>} />
+         
            </Route>
            <Route path="/" element={<Crime_Layout/>}>
             <Route path="/dashboard" element={<Crime_View/>}/>
             <Route path="/Profile" element={<Profile/>}/>
+              <Route  path="/User_dashboard" index element={<User_dashboard/>} />
             <Route path="/Dashboard" element={<Dashboard/>}/>
             <Route path="/Utilities" element={<Utilities/>}/>
             {/* <Route path="/Message" element={<Message/>}/>

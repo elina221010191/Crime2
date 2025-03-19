@@ -127,7 +127,7 @@ li:last-child {
   left: 0;
   width: 0;
   height: 2px;
-  background-color: #dc2626;
+  background-color: blue;
   transition: width 0.3s;
 }
 
