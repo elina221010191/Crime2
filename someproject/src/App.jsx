@@ -43,8 +43,6 @@ function App() {
             <Route path="/Profile" element={<Profile/>}/>
             <Route path="/Dashboard" element={<Dashboard/>}/>
             <Route path="/Utilities" element={<Utilities/>}/>
-            {/* <Route path="/Message" element={<Message/>}/>
-            <Route path="/Settings" element={<settings/>}/> */}
           </Route>
            </Routes> 
     </BrowserRouter>

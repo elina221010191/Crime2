@@ -16,7 +16,7 @@ const About = () => {
         Many crime-reporting solutions exist, but most lack efficiency, security, or accessibility. Before heading to a location, ensure you know how to report any suspicious activity or crime. Our platform eliminates uncertainty by providing a seamless reporting experience, real-time updates, and secure data handling. No more hesitation in reporting—submit instantly and help create a safer community. 
         Stay informed about crimes in your area.
         </p>
-        <button className="read-more">Read More</button>
+        <button className="read-more"><Link to="/Crime" style={{textDecoration:"none"}}>Read More </Link></button>
       </div>
 
       {/* Right Section (Image Grid) */}
