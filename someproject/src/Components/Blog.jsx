@@ -20,25 +20,26 @@ function Blog(){
             title:"July 18, 2021",
             content:"Understanding Organized Crime",
             image:"/crime11.jpg",
+        }, 
+        {
+           id:4,
+            title:"July 18, 2021",
+            content:"Sed magna dui, dignissim id felis vitae, consectetur",
+            image:"/justice1.jpg",
         },
-        // {
-        //     id:4,
-        //     title:"July 18, 2021",
-        //     content:"Sed magna dui, dignissim id felis vitae, consectetur",
-        //     image:"/justice1.jpg",
-        // },
-        // {
-        //     id:5,
-        //     title:"July 18, 2021",
-        //     content:"Fusce suscipit risus tempor, blandit urna at, laoreet ex",
-        //     image:"/crime.jpg",
-        // },
-        // {
-        //     id:6,
-        //     title:"July 18, 2021",
-        //     content:"Pellentesque varius, diam vitae mattis luctus, mi mi cursus",
-        //     image:"/crime2.jpg",
-        // }
+        {
+            id:5,
+            title:"July 18, 2021",
+            content:"Fusce suscipit risus tempor, blandit urna at, laoreet ex",
+            image:"/crime.jpg",
+        },
+        {
+            id:6,
+            title:"July 18, 2021",
+            content:"Justice for all",
+            image:"/justice2.jpg",
+        }
+
     ];
 
     // const[blog,setBlog]=useState([]);

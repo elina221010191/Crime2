@@ -83,7 +83,7 @@ const Login = ({ HandleLoginForm }) => {
       {model && <Register HandleSignUpForm={HandleSignUpForm} />}
       <div style={styles.modal}>
         <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center" }}>
-          <h2 style={{ color: '#4a5568' }}>Login</h2>
+          <h2 style={{ color: '#3B82F6' }}>Login</h2>
           <IoClose onClick={HandleLoginForm} style={{ cursor: "pointer", fontSize: "1.5rem" }} />
         </div>
         <form onSubmit={handleSubmit} style={{ marginTop: '1.5rem' }}>
@@ -128,7 +128,7 @@ const Login = ({ HandleLoginForm }) => {
             style={{
               width: '300px',
               padding: '0.75rem',
-              backgroundColor: '#FE4801',
+              backgroundColor: '#3B82F6',
               color: 'white',
               borderRadius: '0.375rem',
               fontWeight: 'bold',
@@ -144,7 +144,7 @@ const Login = ({ HandleLoginForm }) => {
           Don’t have an account?{' '}
           <button
             onClick={HandleSignUpForm}
-            style={{ color: '#FE4801', background: "none", border: "none", cursor: "pointer" }}
+            style={{ color: '#3B82F6', background: "none", border: "none", cursor: "pointer" }}
           >
             Register
           </button>

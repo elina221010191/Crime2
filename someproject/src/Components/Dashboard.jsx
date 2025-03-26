@@ -86,19 +86,6 @@ const Dashboard = () => {
       <div className="bg-white p-4 rounded-lg shadow mb-6">
         <h2 className="text-lg font-semibold mb-4">Crime Trends (Last 6 Months)</h2>
         <div className="h-64">
-          {/* <ResponsiveContainer width="100%" height="100%"> 
-            <BarChart data={crimeData}>
-              <CartesianGrid strokeDasharray="3 3" />
-              <XAxis dataKey="month" />
-              <YAxis />
-              <Tooltip />
-              <Legend />
-              <Bar dataKey="theft" fill="#f87171" name="Theft" />
-              <Bar dataKey="assault" fill="#fbbf24" name="Assault" />
-              <Bar dataKey="burglary" fill="#60a5fa" name="Burglary" />
-              <Bar dataKey="fraud" fill="#a78bfa" name="Fraud" />
-            </BarChart>
-          </ResponsiveContainer> */}
         </div>
       </div>
       

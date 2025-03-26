@@ -67,7 +67,7 @@ const HandleLoginForm=()=>
             fontSize: '1.5rem',
             fontWeight: 'bold',
             textAlign: 'center',
-            color: '#4a5568',
+            color: '#3B82F6',
           }}
         >
           Register
@@ -80,7 +80,7 @@ const HandleLoginForm=()=>
                  <input   type="password" style={{ paddingRight: "30px" ,width:"380px",marginLeft:"10px"}} placeholder="Password" value={userPassword} onChange={(e)=>setPassword(e.target.value)}  required/>
           </div>
       
-              <div style={{display:"flex",gap:"20px"}}> <button type="submit" disabled={loading} style={{width:"200px",marginLeft:"0px",backgroundColor:"#FE4801",border:"none"}}>SIGN UP</button> <span style={{marginTop:"25px",color:"black"}}>Already have account<span onClick={HandleLoginForm} style={{color:"#FE4801",marginLeft:"5px",background:"none",cursor:"pointer"}}>Login</span></span></div> 
+              <div style={{display:"flex",gap:"20px"}}> <button type="submit" disabled={loading} style={{width:"200px",marginLeft:"0px",backgroundColor:"#3B82F6",border:"none"}}>SIGN UP</button> <span style={{marginTop:"25px",color:"black"}}>Already have account<span onClick={HandleLoginForm} style={{color:"#3B82F6",marginLeft:"5px",background:"none",cursor:"pointer"}}>Login</span></span></div> 
             </form>
             {loading && <p>Loading...</p>}
            
