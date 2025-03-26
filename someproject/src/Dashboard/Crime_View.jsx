@@ -1,5 +1,6 @@
 import { Card } from "../Components/Card";
 import MoveChart from '../Components/MoveChartt';
+import LineChartGraph from '../Components/LineChart';
 import { Link } from "react-router-dom";
 export default function Dashboard() {
   return (
@@ -9,14 +10,15 @@ export default function Dashboard() {
       <div className="w-full">
         <Card className="p-4">
           <h2 className="text-lg font-bold">Crime Trends Over Time</h2>
-          <div className="texx">
-          <div className="h-40 bg-gray-300 mt-2">
-          <MoveChart/>
-          <div className="texxx">
+      
+        
           <button className="read-more"><Link to="/User_dashboard" style={{textDecoration:"none"}}>Submit a form here </Link></button>
-          </div>
-          </div>
-          </div>
+         
+          <div className="h-40 bg-gray-300 mt-2"/>
+          <LineChartGraph/>
+          {/* <MoveChart/> */}
+         
+         
         </Card>
 
         <div className="mt-6 flex gap-6">

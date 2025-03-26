@@ -9,7 +9,6 @@ import './Dashboard_Styles/dashboardnavbar.css'
  import { MdSettings } from "react-icons/md";
  import { IoIosFlash } from "react-icons/io";
  import { IoIosNotifications } from "react-icons/io";
- import { LiaLanguageSolid } from "react-icons/lia";
  import { IoPerson } from "react-icons/io5";
 
 
@@ -20,7 +19,7 @@ export default function Crime_Navbar()
         <div className="Main-Navbar">
             <div className='search'><IoIosSearch className='search-icon'/><span><input type="text" placeholder="Ctrl+K" className="in"/></span></div>
             <div className='Time'><span></span></div>
-            <div className='language'><span><MdWbSunny size={20}/><MdSettings className="sun1" size={20}/><IoIosFlash size={20}/><LiaLanguageSolid size={20}/></span><IoMdNotificationsOutline size={20} className='not-icon'/><IoPerson class Name="not1-icon" size={20}/></div>
+            <div className='language'><span><MdWbSunny size={20}/><MdSettings className="sun1" size={20}/><IoIosFlash size={20}/></span><IoMdNotificationsOutline size={20} className='not-icon'/><IoPerson class Name="not1-icon" size={20}/></div>
            
             </div>
 
