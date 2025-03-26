@@ -17,6 +17,8 @@ import User_dashboard from './Components/User_dashboard'
 //import Crime from './Dashboard/Crime'
 import Profile from './Dashboard/Profile'
 import Utilities from './Dashboard/Utilities'
+// import Card from './Components/Card'
+// import Button from './Components/Button'
 //import Dashboard from './Crime_Navbar'
 
 function App() {
@@ -35,6 +37,8 @@ function App() {
            <Route  path="/Dashboard" index element={<Dashboard/>} />
            <Route  path="/Blog" index element={<Blog/>} />
            <Route  path="/Crime" index element={<Crime/>} />
+           {/* <Route  path="/Card" index element={<Card/>} />
+           <Route  path="/Button" index element={<Button/>} /> */}
            <Route  path="/User_dashboard" index element={<User_dashboard/>} />
          
            </Route>
