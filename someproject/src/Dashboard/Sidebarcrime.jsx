@@ -4,7 +4,7 @@ import {Link} from "react-router-dom"
 function Sidebarcrime(){
 return(
 
-       <div className="sidebarcrimee">
+       <div className="container_side">
         <div className="profile2-section">
        <h1 clasName="avatar3">Crime</h1> 
         <div className="avator4">

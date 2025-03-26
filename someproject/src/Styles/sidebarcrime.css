@@ -1,85 +1,62 @@
-.sidebar {
-    width: 250px;
-    height: 100vh;
-    background-color: #697BC4;
-    color: black;
-    display: flex;
-    flex-direction: column;
-    padding: 20px;
-    position: fixed;
-    z-index: 1000px;
-  }
-  
-  .profile-section {
-    text-align: center;
-    margin-bottom: 20px;
-  }
-  
-  .avatar {
-    font-size: 50px;
-  }
-  
-  .board-list {
-    list-style-type: none;
-    padding: 0;
-  }
-  
-  .board-list li {
-    padding: 10px;
-    cursor: pointer;
-    transition: background 0.3s;
-}
-
-.board-list li:hover, .board-list .active {
-  background-color: #34495e;
-}
-
-
-/* .navbar {
- 
-  margin-top: 10px;
-  width: 100%;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 15px 20px;
-  background-color: #34495e;
+.container_side {
+  width: 250px;
+  background-color: #2c3e50;
   color: white;
-      z-index: 1000; 
-    }
-     */
+  padding: 20px;
+  min-height: 100vh;
+}
 
+.profile2-section {
+  text-align: center;
+  margin-bottom: 20px;
+}
 
-/* .logo {
-  font-size: 24px;
+.avatar3 {
+  font-size: 1.5rem;
   font-weight: bold;
 }
 
-.nav-links {
-  list-style-type: none;
-  display: flex;
-  gap: 20px;
+.avator4 {
+  width: 60px;
+  height: 60px;
+  background-color: #34495e;
+  border-radius: 50%;
+  margin: 10px auto;
 }
 
-.nav-links li {
-  cursor: pointer;
-  transition: color 0.3s;
+.board2-listcrime {
+  list-style: none;
+  padding: 0;
 }
 
-.nav-links li:hover {
-  color: #1abc9c;
+.board2-listcrime h6 {
+  font-size: 0.9rem;
+  color: #bdc3c7;
+  margin-bottom: 10px;
 }
 
-.login-btn {
-  background-color: #1abc9c;
-  border: none;
-  padding: 10px 20px;
-  color: white;
-  cursor: pointer;
+.board2-listcrime li {
+  padding: 10px;
   border-radius: 5px;
-  transition: background 0.3s;
+  cursor: pointer;
+  transition: background-color 0.3s;
 }
 
-.login-btn:hover {
-  background-color:#16a085;
-} */
+.board2-listcrime li:hover {
+  background-color: #1abc9c;
+}
+
+.active2 {
+  background-color: #e74c3c;
+  color: white;
+}
+
+.active3 {
+  background-color: #f39c12;
+  color: white;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}

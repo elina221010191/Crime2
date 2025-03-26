@@ -7,7 +7,7 @@ import Login from './Components/Login'
 import SignUpForm from './Components/SignUpForm'
 import About from './Components/About'
 import Contact from './Components/Contact'
-import Dashboard from './Components/Dashboard'
+import Admin_Dashboard from './Components/Admin_Dashboard'
 import Blog from './Components/Blog'
 import Crime from "./Components/Crime"
 import AuthProvider from "./Components/AuthProvider"
@@ -19,7 +19,7 @@ import Profile from './Dashboard/Profile'
 import Utilities from './Dashboard/Utilities'
 // import Card from './Components/Card'
 // import Button from './Components/Button'
-//import Dashboard from './Crime_Navbar'
+import User_management from './Components/User_management'
 
 function App() {
   
@@ -34,9 +34,10 @@ function App() {
            <Route  path="/SignUpForm" index element={<SignUpForm/>} />
            <Route  path="/About" index element={<About/>} />
            <Route  path="/Contact" index element={<Contact/>} />
-           <Route  path="/Dashboard" index element={<Dashboard/>} />
+           <Route  path="/Admin_Dashboard" index element={<Admin_Dashboard/>} />
            <Route  path="/Blog" index element={<Blog/>} />
            <Route  path="/Crime" index element={<Crime/>} />
+           <Route  path="/User_management" index element={<User_management/>} /> 
            {/* <Route  path="/Card" index element={<Card/>} />
            <Route  path="/Button" index element={<Button/>} /> */}
            <Route  path="/User_dashboard" index element={<User_dashboard/>} />
@@ -45,7 +46,7 @@ function App() {
            <Route path="/" element={<Crime_Layout/>}>
             <Route path="/dashboard" element={<Crime_View/>}/>
             <Route path="/Profile" element={<Profile/>}/>
-            <Route path="/Dashboard" element={<Dashboard/>}/>
+            {/* <Route path="/Dashboard" element={<Dashboard/>}/> */}
             <Route path="/Utilities" element={<Utilities/>}/>
           </Route>
            </Routes> 

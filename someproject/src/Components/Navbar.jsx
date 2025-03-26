@@ -89,7 +89,7 @@ const {logout}=useAuth();
               {isDropdownOpen && (
                            <div className='theme_dropdown1'>
                              <ul>
-                             <Link to="/User_dashboard" style={{textDecoration:"none"}}> <li> Dashboard</li></Link>
+                             <Link to="/Admin_Dashboard" style={{textDecoration:"none"}}> <li> Dashboard</li></Link>
                                <Link to="/" style={{textDecoration:"none"}}><li onClick={HandleLogout}> Logout</li></Link>
                               <Link to="/" style={{textDecoration:"none"}}> <li>Home</li></Link>
                              </ul>

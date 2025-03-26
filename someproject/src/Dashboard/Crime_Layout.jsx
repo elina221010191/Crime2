@@ -2,7 +2,7 @@ import React from 'react'
 import Sidebarcrime from'./Sidebarcrime';
 import Crime_Navbar from './Crime_Navbar';
 import {Outlet} from 'react-router-dom';
-// import "./Dashboard_Styles/dashboard-layout.css"
+import "./Dashboard_Styles/dashboard-layout.css"
 function Crime_Layout(){
     return(
         <div className="Main-outlet">
