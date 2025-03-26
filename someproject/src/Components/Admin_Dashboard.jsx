@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import "../Styles/dashboard.css";
+import "../Styles/admindashboard.css";
 import { BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, Legend, ResponsiveContainer } from 'recharts';
 import { Table, AlertCircle, TrendingUp, TrendingDown } from 'lucide-react';
 
