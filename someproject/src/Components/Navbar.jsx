@@ -3,7 +3,6 @@ import { Link,useNavigate } from "react-router-dom";
 import "../Styles/navbar.css";
 import Login from "./Login";
 import Register from "./SignUpForm";
-import { CgProfile } from "react-icons/cg";
 import { useAuth } from "./AuthProvider";
 const Navbar = () => {
 const {logout}=useAuth();
@@ -76,12 +75,12 @@ const {logout}=useAuth();
           <div className="UserPrandName" onClick={toggleDropdown}>
             
             <img
-                src="/no-profilebg.png"
+                src="/nobgprofile.jpg"
                 alt="Profile"
                 width="40"
                 height="40"
                 style={{ borderRadius: "50%" }}
-              /> <CgProfile />
+              />
              
             
             <div className="userName2">{user.Name}</div>

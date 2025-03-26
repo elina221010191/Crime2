@@ -27,7 +27,7 @@ const Login = ({ HandleLoginForm }) => {
       localStorage.setItem("token", token);
       const decoded = jwt_decode(token);
       const userRole = decoded.userRole;
-      const userName=decoded.userName;
+      const userName=decoded.Name;
       localStorage.setItem("user", JSON.stringify(response.data.user));
        // save name in localStorage
     localStorage.setItem("userName", userName);

@@ -16,7 +16,6 @@ import Crime_View from './Dashboard/Crime_View'
 import User_dashboard from './Components/User_dashboard'
 //import Crime from './Dashboard/Crime'
 import Profile from './Dashboard/Profile'
-import Utilities from './Dashboard/Utilities'
 // import Card from './Components/Card'
 // import Button from './Components/Button'
 import User_management from './Components/User_management'
@@ -47,7 +46,6 @@ function App() {
             <Route path="/dashboard" element={<Crime_View/>}/>
             <Route path="/Profile" element={<Profile/>}/>
             {/* <Route path="/Dashboard" element={<Dashboard/>}/> */}
-            <Route path="/Utilities" element={<Utilities/>}/>
           </Route>
            </Routes> 
     </BrowserRouter>
