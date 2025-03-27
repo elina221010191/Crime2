@@ -24,13 +24,13 @@ function Blog(){
         {
            id:4,
             title:"July 18, 2021",
-            content:"Sed magna dui, dignissim id felis vitae, consectetur",
+            content:"Still life with the scalesof justice",
             image:"/justice1.jpg",
         },
         {
             id:5,
             title:"July 18, 2021",
-            content:"Fusce suscipit risus tempor, blandit urna at, laoreet ex",
+            content:"",
             image:"/crime.jpg",
         },
         {

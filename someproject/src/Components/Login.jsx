@@ -37,7 +37,7 @@ const Login = ({ HandleLoginForm }) => {
 
       // Navigate based on the user role
       if (userRole === "admin") {
-        navigate('/dashboard');
+        navigate('/Admin_Dashboard');
       } else if (userRole === "user") {
         navigate('/');
       } else {
