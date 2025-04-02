@@ -69,6 +69,12 @@ const {logout}=useAuth();
               <li className="nav-item">
                 <Link to="/contact" className="nav-link">Contact Us</Link>
               </li>
+              {/* <li className="nav-item">
+                <Link to="/Report" className="nav-link">Report</Link>
+              </li>
+              <li className="nav-item">
+                <Link to="/SubmitReport" className="nav-link">SubmitReport</Link>
+              </li> */}
             </ul>
             <div className="LoginAndRegister">
             {user ? (

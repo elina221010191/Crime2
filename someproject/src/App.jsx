@@ -19,6 +19,8 @@ import Profile from './Dashboard/Profile'
 // import Card from './Components/Card'
 // import Button from './Components/Button'
 import User_management from './Components/User_management'
+import Report from './Components/Report'
+import SubmitReport from './Components/SubmitReport';
 
 function App() {
   
@@ -40,6 +42,10 @@ function App() {
            {/* <Route  path="/Card" index element={<Card/>} />
            <Route  path="/Button" index element={<Button/>} /> */}
            <Route  path="/User_dashboard" index element={<User_dashboard/>} />
+           <Route  path="/Report" index element={<Report/>} />
+           <Route  path="/SubmitReport" index element={<SubmitReport/>} />
+
+
          
            </Route>
            <Route path="/" element={<Crime_Layout/>}>

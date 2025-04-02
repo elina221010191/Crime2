@@ -23,6 +23,7 @@ const Home = () => {
       </div>
 <CrimeTypes/>
 <Blog/>
+
     </div>
   );
 };
