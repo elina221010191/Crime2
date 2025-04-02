@@ -6,11 +6,11 @@ const CrimeTypes = () => {
   const crimeCategories = [
     {
       name: "Violent Crimes",
-      examples: ["Assault", "Battery", "Homicide", "Robbery", "Kidnapping"]
+      examples: ["Homicide", "Robbery", "Kidnapping"]
     },
     {
       name: "Property Crimes",
-      examples: ["Burglary", "Theft", "Arson", "Vandalism", "Shoplifting"]
+      examples: ["Theft", "Shoplifting"]
     },
     {
       name: "White-Collar Crimes",

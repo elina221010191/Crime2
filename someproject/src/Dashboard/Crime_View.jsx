@@ -2,6 +2,7 @@ import { Card } from "../Components/Card";
 import MoveChart from '../Components/MoveChartt';
 import LineChartGraph from '../Components/LineChart';
 import { Link } from "react-router-dom";
+import { QRCodeCanvas } from "qrcode.react";
 export default function Dashboard() {
   return (
     <div className="min-h-screen bg-gray-100 p-6">
@@ -33,7 +34,7 @@ export default function Dashboard() {
           <Card className="p-4 w-1/2">
             <h2 className="text-lg font-bold">QR Code</h2>
             <div className="h-32 bg-gray-300 mt-2 flex items-center justify-center">
-              QR CODE
+              < QRCodeCanvas/>
             </div>
           </Card>
         </div>
