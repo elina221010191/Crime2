@@ -1,9 +1,9 @@
 import "../Styles/home.css";
 import Login from "./Login";
 import { Link } from "react-router-dom";
-import CrimeTypes from "./About"
+// import CrimeTypes from "./About"
 import { useState } from "react";
-import Blog from "./Blog";
+// import Blog from "./Blog";
 const Home = () => {
   const [modal,useModal]=useState(false);
   const HandleLoginForm=()=>
@@ -21,8 +21,8 @@ const Home = () => {
        <button className="Book-Button" onClick={HandleLoginForm}>REPORT</button>
       </div>
       </div>
-<CrimeTypes/>
-<Blog/>
+{/* <CrimeTypes/> */}
+{/* <Blog/> */}
 
     </div>
   );

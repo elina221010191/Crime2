@@ -7,9 +7,9 @@ import Login from './Components/Login'
 import SignUpForm from './Components/SignUpForm'
 import About from './Components/About'
 import Contact from './Components/Contact'
-import Admin_Dashboard from './Components/Admin_Dashboard'
-import Blog from './Components/Blog'
-import Crime from "./Components/Crime"
+// import Admin_Dashboard from './Components/Admin_Dashboard'
+// import Blog from './Components/Blog'
+// import Crime from "./Components/Crime"
 import AuthProvider from "./Components/AuthProvider"
 import Crime_Layout from './Dashboard/Crime_Layout'
 import Crime_View from './Dashboard/Crime_View'
@@ -35,9 +35,9 @@ function App() {
            <Route  path="/SignUpForm" index element={<SignUpForm/>} />
            <Route  path="/About" index element={<About/>} />
            <Route  path="/Contact" index element={<Contact/>} />
-           <Route  path="/Admin_Dashboard" index element={<Admin_Dashboard/>} />
-           <Route  path="/Blog" index element={<Blog/>} />
-           <Route  path="/Crime" index element={<Crime/>} />
+           {/* <Route  path="/Admin_Dashboard" index element={<Admin_Dashboard/>} /> */}
+           {/* <Route  path="/Blog" index element={<Blog/>} /> */}
+           {/* <Route  path="/Crime" index element={<Crime/>} /> */}
            <Route  path="/User_management" index element={<User_management/>} /> 
            {/* <Route  path="/Card" index element={<Card/>} />
            <Route  path="/Button" index element={<Button/>} /> */}

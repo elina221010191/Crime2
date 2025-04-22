@@ -46,7 +46,7 @@ const {logout}=useAuth();
       <div className="container-fluid">
         <nav className="navbar custom_nav-container">
           <Link to="/" className="navbar-brand">
-            <div className="Logo">CrimeWatch</div>
+            <div className="Logo">CrimeMapping</div>
           </Link>
           <button className="navbar-toggler" onClick={toggleMenu}>
             <span className="menu-icon">☰</span>
@@ -54,21 +54,21 @@ const {logout}=useAuth();
 
           <div className={`nav-links ${isMenuOpen ? "open" : ""}`}>
             <ul className="navbar-nav">
-              <li className="nav-item">
+              {/* <li className="nav-item">
                 <Link to="/" className="nav-link">Home</Link>
               </li>
               <li className="nav-item">
                 <Link to="/about" className="nav-link">About Us</Link>
-              </li>
-              <li className="nav-item">
+              </li> */}
+              {/* <li className="nav-item">
                 <Link to="/crime" className="nav-link">Crime</Link>
-              </li>
-              <li className="nav-item">
+              </li> */}
+              {/* <li className="nav-item">
                 <Link to="/Blog" className="nav-link">Blog</Link>
-              </li>
-              <li className="nav-item">
+              </li> */}
+              {/* <li className="nav-item">
                 <Link to="/contact" className="nav-link">Contact Us</Link>
-              </li>
+              </li> */}
               {/* <li className="nav-item">
                 <Link to="/Report" className="nav-link">Report</Link>
               </li>
@@ -94,7 +94,7 @@ const {logout}=useAuth();
               {isDropdownOpen && (
                            <div className='theme_dropdown1'>
                              <ul>
-                             <Link to="/Admin_Dashboard" style={{textDecoration:"none"}}> <li> Dashboard</li></Link>
+                             <Link to="/" style={{textDecoration:"none"}}> <li> Dashboard</li></Link>
                                <Link to="/" style={{textDecoration:"none"}}><li onClick={HandleLogout}> Logout</li></Link>
                               <Link to="/" style={{textDecoration:"none"}}> <li>Home</li></Link>
                              </ul>
